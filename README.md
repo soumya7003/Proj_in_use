@@ -1,54 +1,89 @@
-🌌 Celestia Noire
-Beyond Earth, Into Infinity.
+# Celestia Noire - Luxury Space Exploration Website
 
-Celestia Noire is a premium, hyper-luxury digital experience designed for visionaries and the elite. It serves as a gateway to the future of space exploration, offering everything from private orbital voyages to Martian real estate and exclusive cosmic memberships.
+Welcome to Celestia Noire, a fully responsive and interactive front-end project for a fictional hyper-luxury space exploration brand. This project showcases a modern, dark-themed UI with smooth animations and a professional layout, designed to captivate users with an immersive digital experience.
 
-✨ Features
-Voyages: Details on elite aerospace partnerships, including Orbital Luxury, Lunar Expeditions, and Edge of Space journeys.
+The entire layout and user experience were designed in **Figma** before development, ensuring a polished and cohesive final product.
 
-Celestial Residences: A showcase of exclusive properties ranging from orbital habitats (Elysium) to lunar villas and Martian estates.
+### Live Demo & Preview
 
-Stellar Circle Membership: A tiered membership system (Platinum, Diamond, Cosmic) for unprecedented access to galactic events.
+**[Link to your live demo here]**
 
-Archive of Infinity: A curated marketplace for space-themed luxury collectibles and artifacts.
+*(It's highly recommended to add a screenshot or a GIF of your project here to give visitors a quick look at your work!)*
 
-The Observatory: Live event tracking for celestial phenomena like lunar eclipses and solar storms.
+![Celestia Noire Preview](https://user-images.githubusercontent.com/your-image-url.png)
 
-Genesis Journal: Thought-leadership articles from astronauts, space architects, and futurists.
+---
 
-🚀 Tech Stack
-Frontend: HTML5, Semantic CSS3
+## ✨ Features
 
-Interactivity: JavaScript (ES6+), jQuery
+* **Fully Responsive Design:** Looks great on devices of all sizes, from mobile phones to desktop monitors.
+* **Engaging Scroll Animations:** Implemented using the **AOS (Animate On Scroll)** library to bring the page to life as the user scrolls.
+* **Interactive UI Elements:** Features like a sticky navigation bar, a functional login modal, hover effects on cards, and a scroll-to-top button.
+* **Dynamic Carousels:** Utilizes **Owl Carousel** for smooth, touch-enabled sliders to showcase different sections like "Archive of Infinity" and "Genesis Journal".
+* **Modern JavaScript Functionality:** Clean and efficient vanilla JavaScript for the mobile navigation menu, active link highlighting, and form validation.
+* **Figma-Based Design:** The UI/UX was thoughtfully crafted in Figma, focusing on a clean, elegant, and high-end aesthetic befitting a luxury brand.
 
-Animations: AOS (Animate On Scroll) for cinematic transitions.
+---
 
-Sliders: Owl Carousel 2 for immersive content galleries.
+## 🛠️ Technologies Used
 
-Icons: FontAwesome 6
+* **HTML5:** For the structure and content of the website.
+* **CSS3:** For custom styling, animations, and responsive design using media queries.
+* **JavaScript (ES6):** For DOM manipulation, event handling, and interactive features.
+* **jQuery:** Used as a dependency for the Owl Carousel library.
+* **[AOS (Animate On Scroll)](https://michalsnik.github.io/aos/):** A library for creating beautiful scroll animations.
+* **[Owl Carousel 2](https://owlcarousel2.github.io/OwlCarousel2/):** For creating responsive and touch-friendly carousels.
+* **[Font Awesome](https://fontawesome.com/):** For high-quality icons.
+* **[Google Fonts](https://fonts.google.com/):** For custom typography (`Cinzel`, `Montserrat`, `Pacifico`).
 
-🛠️ Installation & Setup
-Clone the repository:
+---
 
-Bash
-git clone https://github.com/your-username/celestia-noire.git
-Navigate to the project directory:
+## 🚀 Setup and Installation
 
-Bash
-cd celestia-noire
-Open the project: Simply open index.html in your preferred web browser to view the experience.
+This is a static front-end project and does not require any complex setup.
 
-📁 Project Structure
-Plaintext
-├── assets/             # Images, logos, and high-res banners
-├── css/                # Owl Carousel and third-party styles
-├── Css/                # Custom style.css (Main theme)
-├── js/                 # Owl Carousel library
-├── Js/                 # Custom script.js (Logic & UI)
-├── favicon-clas/       # Cross-platform favicons
-└── index.html          # Main entry point
-🎨 Design Philosophy
-The project utilizes a dark, sophisticated palette to mimic the vacuum of space, contrasted with "celestial" highlights and smooth, eased animations to provide a sense of weightlessness and luxury.
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/celestia-noire.git](https://github.com/your-username/celestia-noire.git)
+    ```
 
-📄 License
-© 2025 Celestia Noire. All rights reserved. Built for visionaries.
+2.  **Navigate to the project directory:**
+    ```bash
+    cd celestia-noire
+    ```
+
+3.  **Open the `index.html` file in your browser:**
+    You can do this by double-clicking the file or by using a live server extension in your code editor (like VS Code's "Live Server").
+
+---
+
+## 📂 File Structure
+
+The project is organized with a clear separation of concerns to make it easy to navigate and maintain.
+
+```
+/
+|-- index.html              # Main HTML file for the single-page application
+|-- Css/
+|   |-- style.css           # All custom styles for the project
+|   |-- bootstrap.min.css   # (Library) Bootstrap framework styles
+|   |-- owl.carousel.min.css# (Library) Owl Carousel styles
+|-- Js/
+|   |-- script.js           # Custom JavaScript for all interactive features
+|   |-- bootstrap.min.js    # (Library) Bootstrap JS
+|   |-- owl.carousel.min.js # (Library) Owl Carousel JS
+|-- assets/                 # Folder for all images, logos, and other static assets
+|-- README.md               # This file
+```
+
+---
+
+## 🤝 How to Contribute
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/your-username/celestia-noire/issues) if you want to contribute.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE.md).
