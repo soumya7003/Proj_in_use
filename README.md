@@ -6,11 +6,9 @@ The entire layout and user experience were designed in **Figma** before developm
 
 ### Live Demo & Preview
 
-**[Link to your live demo here]**
+**[[Link to your live demo here](https://celestianoire-soumya.netlify.app/)]**
 
-*(It's highly recommended to add a screenshot or a GIF of your project here to give visitors a quick look at your work!)*
 
-![Celestia Noire Preview](https://user-images.githubusercontent.com/your-image-url.png)
 
 ---
 
@@ -59,7 +57,7 @@ This is a static front-end project and does not require any complex setup.
 
 ## 📂 File Structure
 
-The project is organized with a clear separation of concerns to make it easy to navigate and maintain.
+The project is organized with a clear separation of concerns, making it easy to navigate and maintain.
 
 ```
 /
