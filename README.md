@@ -1,54 +1,54 @@
-Celestia Noire 🌌
+🌌 Celestia Noire
+Beyond Earth, Into Infinity.
 
-Celestia Noire is a responsive front-end website designed as a hyper-luxury digital experience themed around space exploration. The project focuses on modern UI design, smooth animations, and interactive components using core web technologies.
+Celestia Noire is a premium, hyper-luxury digital experience designed for visionaries and the elite. It serves as a gateway to the future of space exploration, offering everything from private orbital voyages to Martian real estate and exclusive cosmic memberships.
 
-🚀 Features
+✨ Features
+Voyages: Details on elite aerospace partnerships, including Orbital Luxury, Lunar Expeditions, and Edge of Space journeys.
 
-Responsive multi-section layout
+Celestial Residences: A showcase of exclusive properties ranging from orbital habitats (Elysium) to lunar villas and Martian estates.
 
-Navigation bar with dropdown menu
+Stellar Circle Membership: A tiered membership system (Platinum, Diamond, Cosmic) for unprecedented access to galactic events.
 
-Modal-based login interface
+Archive of Infinity: A curated marketplace for space-themed luxury collectibles and artifacts.
 
-Scroll animations using AOS (Animate On Scroll)
+The Observatory: Live event tracking for celestial phenomena like lunar eclipses and solar storms.
 
-Image sliders and carousels using Owl Carousel
+Genesis Journal: Thought-leadership articles from astronauts, space architects, and futurists.
 
-Interactive UI elements with JavaScript and jQuery
+🚀 Tech Stack
+Frontend: HTML5, Semantic CSS3
 
-Font Awesome icons and external CDN integration
+Interactivity: JavaScript (ES6+), jQuery
 
-🛠️ Tech Stack
+Animations: AOS (Animate On Scroll) for cinematic transitions.
 
-HTML5 – Structure and semantic layout
+Sliders: Owl Carousel 2 for immersive content galleries.
 
-CSS3 – Styling, layout, and responsiveness
+Icons: FontAwesome 6
 
-JavaScript – Interactivity and UI behavior
-
-jQuery – DOM manipulation and plugins
-
-AOS Library – Scroll-based animations
-
-Owl Carousel – Sliders and carousels
-
-📂 Project Structure
-Celestia Noire/
-│── index.html
-│── css/
-│── js/
-│── assets/
-│── favicon-clas/
-
-▶️ How to Run
-
+🛠️ Installation & Setup
 Clone the repository:
 
-git clone https://github.com/soumya7003/Proj_in_use.git
+Bash
+git clone https://github.com/your-username/celestia-noire.git
+Navigate to the project directory:
 
+Bash
+cd celestia-noire
+Open the project: Simply open index.html in your preferred web browser to view the experience.
 
-Open index.html in your browser.
+📁 Project Structure
+Plaintext
+├── assets/             # Images, logos, and high-res banners
+├── css/                # Owl Carousel and third-party styles
+├── Css/                # Custom style.css (Main theme)
+├── js/                 # Owl Carousel library
+├── Js/                 # Custom script.js (Logic & UI)
+├── favicon-clas/       # Cross-platform favicons
+└── index.html          # Main entry point
+🎨 Design Philosophy
+The project utilizes a dark, sophisticated palette to mimic the vacuum of space, contrasted with "celestial" highlights and smooth, eased animations to provide a sense of weightlessness and luxury.
 
-📌 Purpose
-
-This project was created to demonstrate hands-on experience in front-end web development, UI/UX design, animations, and real-world website structuring.
+📄 License
+© 2025 Celestia Noire. All rights reserved. Built for visionaries.
