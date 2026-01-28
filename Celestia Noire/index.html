@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celestia Noire</title>
+
+    <!-- fabicon -->
+    <link rel="icon" type="image/png" href="favicon-clas/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon-clas/favicon.svg" />
+    <link rel="shortcut icon" href="favicon-clas/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon-clas/apple-touch-icon.png" />
+    <link rel="manifest" href="favicon-clas/site.webmanifest" />
+
+    <!-- Fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- owl-css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <!-- navbar -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper-main d-flex jc-between items-center">
+                    <div class="logo-part">
+                        <figure>
+                            <a href="index.html"><img src="assets/logo.png" alt="logo"></a>
+                        </figure>
+                        <div class="toggler">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                    </div>
+                    <div class="middle-porsan d-flex item-center">
+                        <div class="menu-part">
+                            <ul class="d-flex">
+                                <li><a href="#voyages" class="activee">Voyages</a></li>
+                                <li><a href="#residences">Residences</a></li>
+                                <div class="dropdown-main">
+                                    <li>
+                                        <a class="dropdown-toggler" id="explore">Explore
+                                            <i class="fa-solid fa-caret-down"></i>
+                                        </a>
+                                    </li>
+                                    <div class="dropdown-menues">
+                                        <ul>
+                                            <li><a href="#membership">Membership</a></li>
+                                            <li><a href="#observatory">Observatory</a></li>
+                                            <li><a href="#service">Service</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <li><a href="#archive">Archive</a></li>
+                                <li><a href="#genesis">Genesis</a></li>
+                            </ul>
+                        </div>
+                        <div class="login-btn-wrapper">
+                            <a href="#" id="loginBtn">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Login Modal -->
+        <!-- <div class="login-modal" id="loginModal">
+            <div class="login-content">
+                <span class="close-btn" id="closeModal">&times;</span>
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" id="password" placeholder="Enter your password" required>
+                    </div>
+                    <button type="submit" class="login-submit">Login</button>
+                </form>
+            </div>
+        </div> -->
+
+        <!-- Login Modal -->
+        <div class="login-modal" id="loginModal">
+            <div class="login-content">
+                <span class="close-btn" id="closeModal">&times;</span>
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" id="password" placeholder="Enter your password" required>
+                    </div>
+                    <button type="submit" class="login-submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!-- banner -->
+    <section class="banner" style="background-image: url(assets/banner.png);">
+        <div class="container">
+            <div class="banner-content-main d-flex">
+                <div class="banner-text">
+                    <h1 data-aos="zoom-in-up" data-aos-duration="1200" data-aos-delay="100"
+                        data-aos-easing="ease-out-back" data-aos-once="true">
+                        Beyond <span class="first-heading-word" data-aos="fade-right" data-aos-delay="400"
+                            data-aos-duration="1000">Earth</span>,
+                        Into <span class="second-heading-word" data-aos="fade-left" data-aos-delay="600"
+                            data-aos-duration="1000">Infinity</span>
+                    </h1>
+
+                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800" data-aos-easing="ease-in-out"
+                        data-aos-once="true">
+                        A hyper-luxury digital experience designed for visionaries, dreamers, and the elite few who dare
+                        to explore the cosmos. Welcome to the future of space exploration.
+                    </p>
+
+                    <div class="banner-btn-wrapper d-flex">
+                        <div class="first-banner-btn" data-aos="flip-left" data-aos-delay="1000"
+                            data-aos-duration="1000">
+                            <a href="#observatory" class="univ-btn">Enter the Experience</a>
+                        </div>
+                        <div class="second-banner-btn" data-aos="flip-right" data-aos-delay="1200"
+                            data-aos-duration="1000">
+                            <a href="https://www.dailymotion.com/video/x93gsxq" target="_blank">Watch Teaser</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+    <main>
+        <!-- home-sec-two  -->
+        <section class="home-sec-two" id="voyages">
+            <div class="container">
+                <div class="heading-content-main">
+                    <div class="heding-content" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200"
+                        data-aos-easing="cubic-bezier(0.77, 0, 0.175, 1)" data-aos-once="true">
+
+                        <h2 data-aos="zoom-in-up" data-aos-delay="400" data-aos-duration="1000">
+                            Private Space Voyages
+                        </h2>
+
+                        <p class="common-para" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1200"
+                            data-aos-easing="ease-out-back">
+                            Embark on extraordinary journeys beyond Earth's atmosphere with our elite
+                            aerospace partners.
+                        </p>
+                    </div>
+
+                </div>
+
+                <!-- card -->
+                <div class="card-wrapper d-flex" data-aos="fade-up" data-aos-duration="1000"
+                    data-aos-easing="cubic-bezier(0.77, 0, 0.175, 1)" data-aos-once="true">
+
+                    <div class="card" data-aos="zoom-in-up" data-aos-delay="200" data-aos-duration="1000">
+                        <figure>
+                            <img src="assets/ps-1.png" alt="first-card-img">
+                        </figure>
+                        <div class="card-text" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000"
+                            data-aos-easing="ease-out-back">
+                            <h3>Orbital Luxury Experience</h3>
+                            <p>
+                                A 3-day orbital journey with panoramic Earth views,
+                                zero-gravity suite, and champagne service at apogee.
+                                <span class="card-textt">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Mollitia a, voluptate error magni excepturi est quibusdam in
+                                    consequatur praesentium ut nostrum vero molestiae illo aliquam
+                                    necessitatibus nobis voluptates cum modi.
+                                </span>
+                            </p>
+                            <div class="btn-wrapper" data-aos="fade-up" data-aos-delay="600">
+                                <p>$28.5M per person</p>
+                                <div class="card-btn">
+                                    <a class="second-univ-btn card-btn-one">Preview Journey</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" data-aos="zoom-in-up" data-aos-delay="400" data-aos-duration="1000">
+                        <figure>
+                            <img src="assets/ps-2.png" alt="first-card-img">
+                        </figure>
+                        <div class="card-text" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
+                            <h3>Lunar Orbit Expedition</h3>
+                            <p>
+                                A 3-day orbital journey with panoramic Earth views,
+                                zero-gravity suite, and champagne service at apogee.
+                                <span class="card-textt">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Mollitia a, voluptate error magni excepturi est quibusdam in
+                                    consequatur praesentium ut nostrum vero molestiae illo aliquam
+                                    necessitatibus nobis voluptates cum modi.
+                                </span>
+                            </p>
+                            <div class="btn-wrapper" data-aos="fade-up" data-aos-delay="800">
+                                <p>$75M per person</p>
+                                <div class="card-btn">
+                                    <a class="second-univ-btn card-btn-one">Preview Journey</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" data-aos="zoom-in-up" data-aos-delay="600" data-aos-duration="1000">
+                        <figure>
+                            <img src="assets/ps-3.png" alt="first-card-img">
+                        </figure>
+                        <div class="card-text" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
+                            <h3>Edge of Space Experience</h3>
+                            <p>
+                                A 3-day orbital journey with panoramic Earth views,
+                                zero-gravity suite, and champagne service at apogee.
+                                <span class="card-textt">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Mollitia a, voluptate error magni excepturi est quibusdam in
+                                    consequatur praesentium ut nostrum vero molestiae illo aliquam
+                                    necessitatibus nobis voluptates cum modi.
+                                </span>
+                            </p>
+                            <div class="btn-wrapper" data-aos="fade-up" data-aos-delay="1000">
+                                <p>$450K per person</p>
+                                <div class="card-btn">
+                                    <a class="second-univ-btn card-btn-two">Preview Journey</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home-sec-two-btn">
+                    <a href="https://www.britannica.com/science/space-exploration" target="_blank"
+                        class="univ-btn">Explore All Voyages</a>
+                </div>
+        </section>
+
+        <!-- Home-sec-three -->
+        <section class="home-sec-three" id="residences">
+            <div class="container">
+                <div class="heading-content-main">
+                    <div class="heding-content" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200"
+                        data-aos-easing="cubic-bezier(0.77, 0, 0.175, 1)" data-aos-once="true">
+
+                        <h2 data-aos="zoom-in-up" data-aos-delay="400" data-aos-duration="1000">
+                            Celestial Residences
+                        </h2>
+
+                        <p class="common-para" data-aos="fade-up" data-aos-delay="700" data-aos-duration="1200"
+                            data-aos-easing="ease-out-back">
+                            Exclusive properties beyond Earth — from orbital habitats to lunar villas
+                            and Martian concept homes.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="card-wrapper d-flex" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+                    data-aos-delay="200" data-aos-duration="1000" data-aos-offset="100">
+
+                    <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <figure>
+                            <img src="assets/sec-2img-1.png" alt="sec-two-img-one">
+                            <figcaption data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                                <p>Orbital</p>
+                                <h3>Elysium Orbital Residence</h3>
+                            </figcaption>
+                        </figure>
+                        <div class="card-content" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
+                            <div class="top-part jc-between d-flex">
+                                <div data-aos="zoom-in" data-aos-delay="500">
+                                    <p>Altitude</p>
+                                    <p class="milage">450 km</p>
+                                </div>
+                                <div data-aos="zoom-in" data-aos-delay="600">
+                                    <p>Size</p>
+                                    <p class="milage">175 m²</p>
+                                </div>
+                                <div data-aos="zoom-in" data-aos-delay="700">
+                                    <p>Availability</p>
+                                    <p class="year">2025</p>
+                                </div>
+                            </div>
+                            <p class="middle-part" data-aos="fade-up" data-aos-delay="800">
+                                Private module with 360° Earth views, zero-gravity lounge, private airlock, and
+                                dedicated concierge service.
+                            </p>
+                            <div class="bottom-part d-flex jc-between items-center" data-aos="fade-up"
+                                data-aos-delay="900">
+                                <p>$95M</p>
+                                <div class="sec-two-btn" data-aos="zoom-in" data-aos-delay="1000">
+                                    <a href="https://en.wikipedia.org/wiki/Elysium_Space" target="_blank"
+                                        class="second-univ-btn">
+                                        Virtual Tour</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                        <figure>
+                            <img src="assets/sec-2-img.png" alt="sec-two-img-two">
+                            <figcaption data-aos="fade-up" data-aos-delay="400">
+                                <p>Lunar</p>
+                                <h3>Tranquility Lunar Villa</h3>
+                            </figcaption>
+                        </figure>
+                        <div class="card-content" data-aos="fade-up" data-aos-delay="500">
+                            <div class="top-part jc-between d-flex">
+                                <div data-aos="zoom-in" data-aos-delay="600">
+                                    <p>Altitude</p>
+                                    <p class="milage">450 km</p>
+                                </div>
+                                <div data-aos="zoom-in" data-aos-delay="700">
+                                    <p>Size</p>
+                                    <p class="milage">175 m²</p>
+                                </div>
+                                <div data-aos="zoom-in" data-aos-delay="800">
+                                    <p>Availability</p>
+                                    <p class="year">2026</p>
+                                </div>
+                            </div>
+                            <p class="middle-part" data-aos="fade-up" data-aos-delay="900">
+                                Private module with 360° Earth views, zero-gravity lounge, private airlock, and
+                                dedicated concierge service.
+                            </p>
+                            <div class="bottom-part d-flex jc-between items-center" data-aos="fade-up"
+                                data-aos-delay="1000">
+                                <p>$225M</p>
+                                <div class="sec-two-btn" data-aos="zoom-in" data-aos-delay="1100">
+                                    <a href="https://en.wikipedia.org/wiki/Tranquility_Base" target="_blank"
+                                        class="second-univ-btn">
+                                        Virtual Tour</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                        <figure>
+                            <img src="assets/sec-2 img 3.png" alt="sec-two-img-three">
+                            <figcaption data-aos="fade-up" data-aos-delay="500">
+                                <p>Martian</p>
+                                <h3>Olympus Martian Estate</h3>
+                            </figcaption>
+                        </figure>
+                        <div class="card-content" data-aos="fade-up" data-aos-delay="600">
+                            <div class="top-part jc-between d-flex">
+                                <div data-aos="zoom-in" data-aos-delay="700">
+                                    <p>Altitude</p>
+                                    <p class="milage">450 km</p>
+                                </div>
+                                <div data-aos="zoom-in" data-aos-delay="800">
+                                    <p>Size</p>
+                                    <p class="milage">175 m²</p>
+                                </div>
+                                <div data-aos="zoom-in" data-aos-delay="900">
+                                    <p>Availability</p>
+                                    <p class="year">2028</p>
+                                </div>
+                            </div>
+                            <p class="middle-part" data-aos="fade-up" data-aos-delay="1000">
+                                Private module with 360° Earth views, zero-gravity lounge, private airlock, and
+                                dedicated concierge service.
+                            </p>
+                            <div class="bottom-part d-flex jc-between items-center" data-aos="fade-up"
+                                data-aos-delay="1100">
+                                <p>$450M</p>
+                                <div class="sec-two-btn" data-aos="zoom-in" data-aos-delay="1200">
+                                    <a href="https://en.wikipedia.org/wiki/Olympus_Mons" target="_blank"
+                                        class="second-univ-btn">
+                                        Virtual Tour</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                        <figure>
+                            <img src="assets/sec-3-img-4.png" alt="sec-two-img-four">
+                            <figcaption data-aos="fade-up" data-aos-delay="600">
+                                <p>Vessel</p>
+                                <h3>Celestial Voyager Private Vessel</h3>
+                            </figcaption>
+                        </figure>
+                        <div class="card-content" data-aos="fade-up" data-aos-delay="700">
+                            <div class="top-part jc-between d-flex">
+                                <div data-aos="zoom-in" data-aos-delay="800">
+                                    <p>Altitude</p>
+                                    <p class="milage">450 km</p>
+                                </div>
+                                <div data-aos="zoom-in" data-aos-delay="900">
+                                    <p>Size</p>
+                                    <p class="milage">175 m²</p>
+                                </div>
+                                <div data-aos="zoom-in" data-aos-delay="1000">
+                                    <p>Availability</p>
+                                    <p class="year">2035</p>
+                                </div>
+                            </div>
+                            <p class="middle-part" data-aos="fade-up" data-aos-delay="1100">
+                                Private module with 360° Earth views, zero-gravity lounge, private airlock, and
+                                dedicated concierge service.
+                            </p>
+                            <div class="bottom-part d-flex jc-between items-center" data-aos="fade-up"
+                                data-aos-delay="1200">
+                                <p>$175M</p>
+                                <div class="sec-two-btn" data-aos="zoom-in" data-aos-delay="1300">
+                                    <a href="https://www.yachtcharterfleet.com/luxury-charter-yacht-54536/celestial.htm"
+                                        target="_blank" class="second-univ-btn"> Virtual Tour</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sec-three-btn">
+                    <a href="https://www.britannica.com/science/space-exploration" target="_blank"
+                        class="univ-btn">Explore All
+                        Voyages</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Home-sec-four -->
+        <section class="home-sec-four" id="membership">
+            <div class="container">
+                <div class="heading-content-main">
+                    <div class="heding-content">
+                        <h2 data-aos="fade-up" data-aos-duration="700"
+                            data-aos-easing="cubic-bezier(0.68, -0.55, 0.27, 1.55)" data-aos-delay="100">
+                            Stellar Circle Membership
+                        </h2>
+
+                        <p class="common-para" data-aos="fade-up" data-aos-duration="700"
+                            data-aos-easing="cubic-bezier(0.68, -0.55, 0.27, 1.55)" data-aos-delay="200">
+                            Join our exclusive membership club for unprecedented access to cosmic
+                            experiences and privileges.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="card-wrapper d-flex" data-aos="fade-up" data-aos-duration="800" data-aos-offset="150">
+
+                    <div class="card first-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="100"
+                        data-aos-easing="cubic-bezier(0.68,-0.55,0.27,1.55)">
+                        <h3 data-aos="fade-up" data-aos-delay="200">Cosmic Explorer</h3>
+                        <p data-aos="fade-up" data-aos-delay="300">
+                            Begin your journey beyond Earth with priority
+                            access to suborbital flights and exclusive events.
+                        </p>
+                        <ul>
+                            <li data-aos="zoom-in" data-aos-delay="400"><i class="fa-solid fa-check"></i> Priority
+                                booking for suborbital experiences</li>
+                            <li data-aos="zoom-in" data-aos-delay="500"><i class="fa-solid fa-check"></i> Invitation to
+                                annual Stellar Gala events</li>
+                            <li data-aos="zoom-in" data-aos-delay="600"><i class="fa-solid fa-check"></i> Digital
+                                celestial passport with journey tracking</li>
+                            <li data-aos="zoom-in" data-aos-delay="700"><i class="fa-solid fa-check"></i> Access to
+                                member-only Observatory events</li>
+                            <li data-aos="zoom-in" data-aos-delay="800"><i class="fa-solid fa-check"></i> Concierge
+                                service for all bookings</li>
+                        </ul>
+                        <div class="bottom-upper-part" data-aos="fade-up" data-aos-delay="900">
+                            <p>Annual Fee</p>
+                            <div class="annual-fee d-flex jc-between">
+                                <h5>$250,000</h5>
+                                <p>Limited to 500 members</p>
+                            </div>
+                        </div>
+                        <div class="sec-four-btn" data-aos="zoom-in" data-aos-delay="1000">
+                            <a href="https://cosmicexplorer.org/" target="_blank">Apply for Membership</a>
+                        </div>
+                        <span data-aos="fade-up" data-aos-delay="1100">Platinum</span>
+                    </div>
+
+                    <div class="card second-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="200"
+                        data-aos-easing="cubic-bezier(0.68,-0.55,0.27,1.55)">
+                        <h3 data-aos="fade-up" data-aos-delay="300">Orbital Voyager</h3>
+                        <p data-aos="fade-up" data-aos-delay="400">
+                            Begin your journey beyond Earth with priority
+                            access to suborbital flights and exclusive events.
+                        </p>
+                        <ul>
+                            <li data-aos="zoom-in" data-aos-delay="500"><i class="fa-solid fa-check"></i> Priority
+                                booking for suborbital experiences</li>
+                            <li data-aos="zoom-in" data-aos-delay="600"><i class="fa-solid fa-check"></i> Invitation to
+                                annual Stellar Gala events</li>
+                            <li data-aos="zoom-in" data-aos-delay="700"><i class="fa-solid fa-check"></i> Digital
+                                celestial passport with journey tracking</li>
+                            <li data-aos="zoom-in" data-aos-delay="800"><i class="fa-solid fa-check"></i> Access to
+                                member-only Observatory events</li>
+                            <li data-aos="zoom-in" data-aos-delay="900"><i class="fa-solid fa-check"></i> Concierge
+                                service for all bookings</li>
+                            <li data-aos="zoom-in" data-aos-delay="1000"><i class="fa-solid fa-check"></i> Concierge
+                                service for all bookings</li>
+                        </ul>
+                        <div class="bottom-upper-part" data-aos="fade-up" data-aos-delay="1100">
+                            <p>Annual Fee</p>
+                            <div class="annual-fee d-flex jc-between">
+                                <h5>$1,250,000</h5>
+                                <p>Limited to 500 members</p>
+                            </div>
+                        </div>
+                        <div class="sec-four-btn" data-aos="zoom-in" data-aos-delay="1200">
+                            <a href="https://science.nasa.gov/mission/voyager/" target="_blank">Apply for Membership</a>
+                        </div>
+                        <span data-aos="fade-up" data-aos-delay="1300">Diamond</span>
+                    </div>
+
+                    <div class="card third-card" data-aos="fade-up" data-aos-duration="900" data-aos-delay="300"
+                        data-aos-easing="cubic-bezier(0.68,-0.55,0.27,1.55)">
+                        <h3 data-aos="fade-up" data-aos-delay="400">Interplanetary Pioneer</h3>
+                        <p data-aos="fade-up" data-aos-delay="500">
+                            Begin your journey beyond Earth with priority
+                            access to suborbital flights and exclusive events.
+                        </p>
+                        <ul>
+                            <li data-aos="zoom-in" data-aos-delay="600"><i class="fa-solid fa-check"></i> Priority
+                                booking for suborbital experiences</li>
+                            <li data-aos="zoom-in" data-aos-delay="700"><i class="fa-solid fa-check"></i> Invitation to
+                                annual Stellar Gala events</li>
+                            <li data-aos="zoom-in" data-aos-delay="800"><i class="fa-solid fa-check"></i> Digital
+                                celestial passport with journey tracking</li>
+                            <li data-aos="zoom-in" data-aos-delay="900"><i class="fa-solid fa-check"></i> Access to
+                                member-only Observatory events</li>
+                            <li data-aos="zoom-in" data-aos-delay="1000"><i class="fa-solid fa-check"></i> Concierge
+                                service for all bookings</li>
+                            <li data-aos="zoom-in" data-aos-delay="1100"><i class="fa-solid fa-check"></i> Concierge
+                                service for all bookings</li>
+                            <li data-aos="zoom-in" data-aos-delay="1200"><i class="fa-solid fa-check"></i> Concierge
+                                service for all bookings</li>
+                        </ul>
+                        <div class="bottom-upper-part" data-aos="fade-up" data-aos-delay="1300">
+                            <p>Annual Fee</p>
+                            <div class="annual-fee d-flex jc-between">
+                                <h5>$5,000,000</h5>
+                                <p>Limited to 500 members</p>
+                            </div>
+                        </div>
+                        <div class="sec-four-btn" data-aos="zoom-in" data-aos-delay="1400">
+                            <a href="https://science.nasa.gov/mission/pioneer-10/" target="_blank">Apply for
+                                Membership</a>
+                        </div>
+                        <span data-aos="fade-up" data-aos-delay="1500">Cosmic</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="home-sec-five" id="archive">
+            <div class="container">
+                <div class="heading-content-main">
+                    <div class="heding-content">
+                        <h2 data-aos="fade-up" data-aos-duration="700"
+                            data-aos-easing="cubic-bezier(0.68, -0.55, 0.27, 1.55)" data-aos-delay="100">
+                            Archive of Infinity
+                        </h2>
+
+                        <p class="common-para" data-aos="fade-up" data-aos-duration="700"
+                            data-aos-easing="cubic-bezier(0.68, -0.55, 0.27, 1.55)" data-aos-delay="200">
+                            Curated space collectibles and artifacts for the discerning cosmic connoisseur.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="card-wrapper" data-aos="zoom-in-up" data-aos-duration="600">
+                    <div class="owl-carousel" id="owl-two">
+
+                        <div class="item">
+                            <div class="slides">
+                                <div class="card">
+                                    <figure>
+                                        <img src="assets/Lyra Meteorite Necklace.png" alt="sec-five-img-1">
+                                    </figure>
+                                    <div class="card-text">
+                                        <h3>Lyra Meteorite Necklace</h3>
+                                        <p>18K white gold pendant featuring a 4.5-carat
+                                            fragment of the Chelyabinsk meteorite, surrounded
+                                            by 2.3 carats of VS clarity diamonds.</p>
+                                        <div class="bottom-part d-flex jc-between">
+                                            <p>$175,000</p>
+                                            <div class="sec-five-btn">
+                                                <a href="https://www.amazon.com/LYRA-JEWELS-Authentic-Moldavite-Necklace/dp/B0FP9FZPZY"
+                                                    target="_blank" class="second-univ-btn">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="slides">
+                                <div class="card">
+                                    <figure>
+                                        <img src="assets/Selene Lunar Essence Perfume.png" alt="sec-five-img-1">
+                                    </figure>
+                                    <div class="card-text">
+                                        <h3>Selene Lunar Essence Perfume</h3>
+                                        <p>18K white gold pendant featuring a 4.5-carat
+                                            fragment of the Chelyabinsk meteorite, surrounded
+                                            by 2.3 carats of VS clarity diamonds.</p>
+                                        <div class="bottom-part d-flex jc-between  items-center items-center">
+                                            <p>$95,000</p>
+                                            <div class="sec-five-btn ">
+                                                <a href="https://www.amazon.in/Selene-Luxury-Collection-Oud-al-Hind-Seduction/dp/B0DLP9CVF1"
+                                                    target="_blank" class="second-univ-btn">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="slides">
+                                <div class="card">
+                                    <figure>
+                                        <img src="assets/ghhy.png" alt="sec-five-img-1">
+                                    </figure>
+                                    <div class="card-text">
+                                        <h3>Orbital Chronograph</h3>
+                                        <p>18K white gold pendant featuring a 4.5-carat
+                                            fragment of the Chelyabinsk meteorite, surrounded
+                                            by 2.3 carats of VS clarity diamonds.</p>
+                                        <div class="bottom-part d-flex jc-between items-center">
+                                            <p>$225,000</p>
+                                            <div class="sec-five-btn ">
+                                                <a href="https://www.amazon.in/Britime-London-Orbit-Automatic-Chronograph/dp/B0DK9H9JVN"
+                                                    target="_blank" class="second-univ-btn">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="home-sec-five-btn text-center">
+                    <a href="https://www.amazon.com/" target="_blank" class="univ-btn">Explore Full Archive</a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="home-sec-six" id="observatory">
+            <div class="container">
+                <div class="heading-content-main">
+                    <div class="heding-content">
+                        <h2 data-aos="fade-up" data-aos-duration="700"
+                            data-aos-easing="cubic-bezier(0.68, -0.55, 0.27, 1.55)" data-aos-delay="100">
+                            The Observatory
+                        </h2>
+
+                        <p class="common-para" data-aos="fade-up" data-aos-duration="700"
+                            data-aos-easing="cubic-bezier(0.68, -0.55, 0.27, 1.55)" data-aos-delay="200">
+                            Experience the cosmos through exclusive live events, celestial phenomena, and immersive
+                            experiences.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="card-wrapper d-flex">
+                    <div class="card" data-aos="fade-right" data-aos-duration="800"
+                        data-aos-easing="cubic-bezier(0.68, -0.55, 0.27, 1.55)" data-aos-delay="100">
+                        <figure data-aos="zoom-in" data-aos-duration="900" data-aos-delay="200">
+                            <img src="assets/Total Lunar Eclipse Gala.png" alt="home-sec-6-images">
+                            <figcaption data-aos="fade-up" data-aos-delay="300">Featured Event</figcaption>
+                        </figure>
+                        <div class="card-content" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+                            <div class="top-part d-flex jc-between items-center">
+                                <h4>Total Lunar Eclipse Gala</h4>
+                                <div class="right">
+                                    <p>Date</p>
+                                    <p class="year">October 14, 2025</p>
+                                </div>
+                            </div>
+                            <p class="middle-part" data-aos="fade-up" data-aos-delay="500">
+                                Experience the breathtaking total lunar eclipse from our private observatory in Maui,
+                                with gourmet dining, rare vintage champagnes, and expert astronomy guides.
+                            </p>
+                            <div class="bottom-part d-flex items-center jc-between" data-aos="zoom-in"
+                                data-aos-delay="600">
+                                <p>$35,000 per guest</p>
+                                <div class="home-sec-seven-card-btn">
+                                    <a href="https://en.wikipedia.org/wiki/List_of_lunar_eclipses_in_the_21st_century"
+                                        target="_blank" class="second-univ-btn">Reserve Experience</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card right-part" data-aos="fade-left" data-aos-duration="800"
+                        data-aos-easing="cubic-bezier(0.68, -0.55, 0.27, 1.55)" data-aos-delay="100">
+
+                        <!-- Solar Storm Watch -->
+                        <div class="card-content" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                            <div class="top-part d-flex jc-between items-center">
+                                <h4>Solar Storm Watch</h4>
+                                <div class="right">
+                                    <p>Date</p>
+                                    <p class="year">October 14, 2025</p>
+                                </div>
+                            </div>
+                            <p class="middle-part" data-aos="fade-up" data-aos-delay="300">
+                                Experience the breathtaking total lunar eclipse from our private observatory in Maui,
+                                with gourmet dining, rare vintage champagnes, and expert astronomy guides.
+                            </p>
+                            <div class="bottom-part d-flex items-center jc-between" data-aos="zoom-in"
+                                data-aos-delay="400">
+                                <p>$45,000 per guest</p>
+                                <div class="home-sec-seven-card-btn">
+                                    <a href="https://www.zooniverse.org/projects/shannon-/solar-stormwatch-ii"
+                                        target="_blank" class="second-univ-btn">Reserve Experience</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Perseids Meteor Shower -->
+                        <div class="card-content" data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
+                            <div class="top-part d-flex jc-between items-center">
+                                <h4>Perseids Meteor Shower</h4>
+                                <div class="right">
+                                    <p>Date</p>
+                                    <p class="year">October 14, 2025</p>
+                                </div>
+                            </div>
+                            <p class="middle-part" data-aos="fade-up" data-aos-delay="600">
+                                Experience the breathtaking total lunar eclipse from our private observatory in Maui,
+                                with gourmet dining, rare vintage champagnes, and expert astronomy guides.
+                            </p>
+                            <div class="bottom-part d-flex items-center jc-between" data-aos="zoom-in"
+                                data-aos-delay="700">
+                                <p>$28,000 per guest</p>
+                                <div class="home-sec-seven-card-btn">
+                                    <a href="https://science.nasa.gov/solar-system/meteors-meteorites/perseids/"
+                                        class="second-univ-btn" target="_blank">Reserve Experience</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Deep Space Soundscape -->
+                        <div class="card-content" data-aos="fade-up" data-aos-duration="800" data-aos-delay="800">
+                            <div class="top-part d-flex jc-between items-center">
+                                <h4>Deep Space Soundscape</h4>
+                                <div class="right">
+                                    <p>Date</p>
+                                    <p class="year">October 14, 2025</p>
+                                </div>
+                            </div>
+                            <p class="middle-part" data-aos="fade-up" data-aos-delay="900">
+                                Experience the breathtaking total lunar eclipse from our private observatory in Maui,
+                                with gourmet dining, rare vintage champagnes, and expert astronomy guides.
+                            </p>
+                            <div class="bottom-part d-flex items-center jc-between" data-aos="zoom-in"
+                                data-aos-delay="1000">
+                                <p>$15,000 per guest</p>
+                                <div class="home-sec-seven-card-btn">
+                                    <a href="https://pixabay.com/sound-effects/search/deep-space/"
+                                        class="second-univ-btn" target="_blank">Reserve Experience</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- sub-part -->
+                <div class="home-sec-six-sub-part d-flex item-center" id="service">
+
+                    <!-- Left Part -->
+                    <div class="left-part">
+                        <h3 data-aos="fade-up" data-aos-duration="800"
+                            data-aos-easing="cubic-bezier(0.68, -0.55, 0.27, 1.55)" data-aos-delay="100">
+                            Celestial Naming Service
+                        </h3>
+
+                        <p data-aos="fade-up" data-aos-duration="800"
+                            data-aos-easing="cubic-bezier(0.68, -0.55, 0.27, 1.55)" data-aos-delay="200">
+                            Leave your mark in the cosmos with our exclusive naming rights program. Name a star, sponsor
+                            an asteroid discovery, or dedicate a comet with full astronomical registry recognition.
+                        </p>
+
+                        <div class="sec-six-sub-part-btn" data-aos="fade-up" data-aos-duration="800"
+                            data-aos-easing="cubic-bezier(0.68, -0.55, 0.27, 1.55)" data-aos-delay="300">
+                            <a href="https://star-register.eu/star-register-information/" class="second-univ-btn"
+                                target="_blank">Explore Naming Options</a>
+                        </div>
+                    </div>
+
+                    <!-- Right Part -->
+                    <figure class="right-part" data-aos="zoom-in" data-aos-duration="1000"
+                        data-aos-easing="cubic-bezier(0.68, -0.55, 0.27, 1.55)" data-aos-delay="400">
+                        <img src="assets/Group 1.png" alt="sub-part-img-sec-six">
+                        <figcaption>
+                            <h5>Your Legacy Among Stars</h5>
+                            <p>Eternally recorded in astronomical databases</p>
+                        </figcaption>
+                    </figure>
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <section class="home-sec-seven" id="genesis">
+            <div class="container">
+                <div class="heading-content-main">
+                    <div class="heding-content">
+                        <h2 data-aos="fade-up" data-aos-duration="700"
+                            data-aos-easing="cubic-bezier(0.68, -0.55, 0.27, 1.55)" data-aos-delay="100">
+                            Genesis Journal
+                        </h2>
+
+                        <p class="common-para" data-aos="fade-up" data-aos-duration="700"
+                            data-aos-easing="cubic-bezier(0.68, -0.55, 0.27, 1.55)" data-aos-delay="200">
+                            Thought-provoking stories and insights from astronauts, space philosophers, futurists, and
+                            visionary architects.
+                        </p>
+                    </div>
+                </div>
+                <div class="card-wrapper" data-aos="fade-up" data-aos-duration="800"
+                    data-aos-easing="cubic-bezier(0.68, -0.55, 0.27, 1.55)" data-aos-delay="100">
+
+                    <div class="owl-carousel" id="owl-three">
+
+                        <!-- Item 1 -->
+                        <div class="item">
+                            <div class="slides">
+                                <div class="card" data-aos="zoom-in" data-aos-duration="900" data-aos-delay="150">
+                                    <figure data-aos="fade-up" data-aos-duration="900" data-aos-delay="200"
+                                        data-aos-offset="100">
+                                        <img src="assets/The Overview Effect.png" alt="home-sec-eight-image-1">
+                                    </figure>
+                                    <div class="card-content">
+                                        <div class="top d-flex jc-between item-center" data-aos="fade-right"
+                                            data-aos-duration="800" data-aos-delay="250">
+                                            <p>Philosophy</p>
+                                            <p>12 min read</p>
+                                        </div>
+                                        <h4 data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+                                            The Overview Effect: <br> Transforming Consciousness
+                                        </h4>
+                                        <p class="para" data-aos="fade-up" data-aos-duration="800" data-aos-delay="350">
+                                            Former astronaut Dr. Elena Vasquez explores how viewing Earth from space
+                                            fundamentally alters human perception and values.
+                                        </p>
+                                        <div class="about-astro d-flex item-center" data-aos="fade-right"
+                                            data-aos-duration="800" data-aos-delay="400">
+                                            <figure>
+                                                <img src="assets/Container.png" alt="">
+                                            </figure>
+                                            <div>
+                                                <p class="para-first">Dr. Elena Vasquez</p>
+                                                <p class="second-para">Former ISS Commander</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 2 -->
+                        <div class="item">
+                            <div class="slides">
+                                <div class="card" data-aos="zoom-in" data-aos-duration="900" data-aos-delay="200">
+                                    <figure data-aos="fade-up" data-aos-duration="900" data-aos-delay="250"
+                                        data-aos-offset="100">
+                                        <img src="assets/3.png" alt="home-sec-eight-image-1">
+                                    </figure>
+                                    <div class="card-content">
+                                        <div class="top d-flex jc-between item-center" data-aos="fade-right"
+                                            data-aos-duration="800" data-aos-delay="300">
+                                            <p>Philosophy</p>
+                                            <p>12 min read</p>
+                                        </div>
+                                        <h4 data-aos="fade-up" data-aos-duration="800" data-aos-delay="350">
+                                            Designing for the Void: Space <br> Architecture
+                                        </h4>
+                                        <p class="para" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+                                            Former astronaut Dr. Elena Vasquez explores how viewing Earth from space
+                                            fundamentally alters human perception and values.
+                                        </p>
+                                        <div class="about-astro d-flex item-center" data-aos="fade-right"
+                                            data-aos-duration="800" data-aos-delay="450">
+                                            <figure>
+                                                <img src="assets/Container8.png" alt="">
+                                            </figure>
+                                            <div>
+                                                <p class="para-first">Hiroshi Nakamura</p>
+                                                <p class="second-para">Space Habitat Architect</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 3 -->
+                        <div class="item">
+                            <div class="slides">
+                                <div class="card" data-aos="zoom-in" data-aos-duration="900" data-aos-delay="250">
+                                    <figure data-aos="fade-up" data-aos-duration="900" data-aos-delay="300"
+                                        data-aos-offset="100">
+                                        <img src="assets/4.png" alt="home-sec-eight-image-1">
+                                    </figure>
+                                    <div class="card-content">
+                                        <div class="top d-flex jc-between item-center" data-aos="fade-right"
+                                            data-aos-duration="800" data-aos-delay="350">
+                                            <p>Philosophy</p>
+                                            <p>12 min read</p>
+                                        </div>
+                                        <h4 data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+                                            The Trillion-Dollar Orbital <br> Economy
+                                        </h4>
+                                        <p class="para" data-aos="fade-up" data-aos-duration="800" data-aos-delay="450">
+                                            Former astronaut Dr. Elena Vasquez explores how viewing Earth from space
+                                            fundamentally alters human perception and values.
+                                        </p>
+                                        <div class="about-astro d-flex item-center" data-aos="fade-right"
+                                            data-aos-duration="800" data-aos-delay="500">
+                                            <figure>
+                                                <img src="assets/Container-9.png" alt="">
+                                            </figure>
+                                            <div>
+                                                <p class="para-first">Dr. Aisha Mbeki</p>
+                                                <p class="second-para">Space Economist</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="home-sec-seven-sub-part d-flex item-center" data-aos-once="false">
+                    <!-- Left Part -->
+                    <div class="left-part" data-aos="fade-down" data-aos-duration="800" data-aos-easing="ease-out-cubic"
+                        data-aos-delay="100">
+                        <h3 data-aos="fade-right" data-aos-duration="800" data-aos-delay="200"
+                            data-aos-easing="ease-out-back">
+                            Join Our Cosmic Community
+                        </h3>
+                        <p data-aos="fade-right" data-aos-duration="800" data-aos-delay="300"
+                            data-aos-easing="ease-out-back">
+                            Subscribe to receive exclusive articles, event invitations, and celestial updates directly
+                            to your inbox.
+                        </p>
+                    </div>
+
+                    <!-- Right Part -->
+                    <div class="right-part" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-out-cubic"
+                        data-aos-delay="150">
+                        <div class="d-flex input-wrapper" data-aos="zoom-in" data-aos-duration="800"
+                            data-aos-delay="250" data-aos-easing="ease-out-back">
+                            <input type="email" id="emailInput" name="email" placeholder="Your email address">
+                            <input type="button" id="subscribeBtn" value="Subscribe">
+                        </div>
+                        <p id="msg" data-aos="fade-up" data-aos-duration="800" data-aos-delay="350"
+                            data-aos-easing="ease-out-back">
+                            By subscribing, you agree to our privacy policy and terms of service.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+    <!-- footer-->
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper d-flex">
+                <div class="footer-box">
+                    <h4>Celestia Noire</h4>
+                    <p>A hyper-luxury digital experience
+                        designed for visionaries, dreamers, and
+                        the elite few who dare to explore beyond
+                        Earth.</p>
+
+                    <ul class="social-icon-inside-first">
+                        <li><a href="https://www.instagram.com/spacedotcom/?hl=en" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://x.com/spacedotcom/?hl=en" target="_blank"><i
+                                    class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/imaginova/" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-box">
+                    <h5>Experiences</h5>
+                    <ul>
+                        <li><a href="#">Private Voyages</a></li>
+                        <li><a href="#">Celestial Residences</a></li>
+                        <li><a href="#">Stellar Circle</a></li>
+                        <li><a href="#">Archive of Infinity</a></li>
+                        <li><a href="#">Observatory Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-box">
+                    <h5>Company</h5>
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Partners</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-box">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Space Travel Waiver</a></li>
+                        <li><a href="#">Licensing</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copy-right d-flex jc-between">
+                <p>© 2025 Celestia Noire. All rights reserved.</p>
+                <div class="social-icons">
+                    <i class="fa-brands fa-cc-visa"></i>
+                    <i class="fa-brands fa-cc-mastercard"></i>
+                    <i class="fa-brands fa-paypal"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="upper-up-btn-wrapper" id="scrollBtn">
+        <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+
+    <!-- jQuery slidder -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
+
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: false, // Allow animations to trigger every time you scroll into view
+            mirror: true, // Animate elements out when scrolling past them
+        });
+
+    </script>
+
+    <script src="Js/script.js"></script>
+</body>
+
+</html>
